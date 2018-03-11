@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InstructionDialog</class>
+ <widget class="QDialog" name="InstructionDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>使用说明</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(1)对局双方各执一色棋子。&lt;/p&gt;&lt;p&gt;(2)空棋盘开局。&lt;/p&gt;&lt;p&gt;(3)黑先、白后，交替下子，每次只能下一子(通过鼠标左键点击棋盘空白点即可下子)。&lt;/p&gt;&lt;p&gt;(4)轮流下子是双方的权利，但允许任何一方放弃下子权（用鼠标右键点击棋盘即可放弃下子）。&lt;/p&gt;&lt;p&gt;(5)用鼠标中键点击棋盘可让AI(困难的)代替轮走方下一子。&lt;/p&gt;&lt;p&gt;(6)先形成5子连线者获胜。若系统认为双方均无法获胜则判断该局和棋。&lt;/p&gt;&lt;p&gt;(7)当鼠标在棋盘上时可在状态栏查看轮到哪一方。&lt;/p&gt;&lt;p&gt;(8)在人机模式中人为黑方，AI为白方。&lt;/p&gt;&lt;p&gt;(9)若想将先手改为白方，可在开局时让黑方放弃第一个下子权。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>关闭</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
